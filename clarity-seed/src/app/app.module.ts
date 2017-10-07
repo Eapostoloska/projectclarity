@@ -11,6 +11,7 @@ import { AboutComponent } from "./about/about.component";
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
 import { SnippetPostComponent } from './snippet-post/snippet-post.component';
+import { ModalsComponent } from './modals/modals.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { SnippetPostComponent } from './snippet-post/snippet-post.component';
         HomeComponent,
         TablesComponent,
         FormsComponent,
-        SnippetPostComponent
+        SnippetPostComponent,
+        ModalsComponent
     ],
     imports: [
         BrowserAnimationsModule,

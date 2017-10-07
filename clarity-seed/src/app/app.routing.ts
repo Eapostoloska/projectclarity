@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
+import { ModalsComponent } from './modals/modals.component';
 
 
 export const ROUTES: Routes = [
@@ -17,7 +18,8 @@ export const ROUTES: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'about', component: AboutComponent},
     {path: 'tables', component: TablesComponent},
-    {path: 'forms', component: FormsComponent}
+    {path: 'forms', component: FormsComponent},
+    {path: 'modals', component: ModalsComponent}
 ];
 
 export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);
