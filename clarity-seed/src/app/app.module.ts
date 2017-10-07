@@ -8,14 +8,14 @@ import { AppComponent } from './app.component';
 import { ROUTING } from "./app.routing";
 import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
-import { TestComponentComponent } from './test-component/test-component.component';
+import { TablesComponent } from './tables/tables.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         AboutComponent,
         HomeComponent,
-        TestComponentComponent
+        TablesComponent
     ],
     imports: [
         BrowserAnimationsModule,

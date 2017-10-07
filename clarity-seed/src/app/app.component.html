@@ -20,11 +20,11 @@
       <clr-vertical-nav [clrVerticalNavCollapsible]="collapsible" [(clrVerticalNavCollapsed)]="collapsed">
           <a clrVerticalNavLink routerLink="./normal" routerLinkActive="active">
               <clr-icon clrVerticalNavIcon shape="user"></clr-icon>
-              Normal
+              Tables
           </a>
-          <a clrVerticalNavLink routerLink="./electric" routerLinkActive="active">
+          <a clrVerticalNavLink routerLink="./electric" [routerLink]="['/tables']" routerLinkActive="active">
               <clr-icon clrVerticalNavIcon shape="bolt"></clr-icon>
-              Electric
+              Tables
           </a>
           <a clrVerticalNavLink routerLink="./poison" routerLinkActive="active">
               <clr-icon clrVerticalNavIcon shape="sad-face"></clr-icon>
