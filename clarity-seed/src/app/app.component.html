@@ -9,7 +9,7 @@
       <div class="header-nav" [clr-nav-level]="1">
           <a class="nav-link" href="#" [routerLink]="['/home']" routerLinkActive="active"><span class="nav-text">Home</span></a>
           <a class="nav-link" href="#" [routerLink]="['/about']" routerLinkActive="active"><span class="nav-text">About</span></a>
-          <a class="nav-link" href="#" [routerLink]="['/forms']" routerLinkActive="active"><span class="nav-text">Forms</span></a>
+          <a class="nav-link" href="#" [routerLink]="['/personal-space']" routerLinkActive="active"><span class="nav-text">My Profile</span></a>
       </div>
     <div class="header-actions">
     </div>
@@ -35,17 +35,17 @@
                   <clr-icon clrVerticalNavIcon shape="code"></clr-icon>
                   CSS Grids
               </a>
-              <a clrVerticalNavLink routerLink="./electric" routerLinkActive="active">
-                  <clr-icon clrVerticalNavIcon shape="bolt"></clr-icon>
+              <a clrVerticalNavLink [routerLink]="['/illustrator-design']" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="display"></clr-icon>
                   Designs Illustrator
               </a>
               <a clrVerticalNavLink routerLink="./poison" routerLinkActive="active">
-                  <clr-icon clrVerticalNavIcon shape="sad-face"></clr-icon>
+                  <clr-icon clrVerticalNavIcon shape="display"></clr-icon>
                   Designs Sketch
               </a>
               <a clrVerticalNavLink routerLink="./grass" routerLinkActive="active">
-                  <clr-icon clrVerticalNavIcon shape="bug"></clr-icon>
-                  Photoshop Designs
+                  <clr-icon clrVerticalNavIcon shape="display"></clr-icon>
+                  Designs Photoshop
               </a>
           </div>
       </clr-vertical-nav>

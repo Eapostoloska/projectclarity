@@ -11,6 +11,11 @@ import { AboutComponent } from "./about/about.component";
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
 import { SnippetPostComponent } from './snippet-post/snippet-post.component';
+import { IllustratorDesignComponent } from './illustrator-design/illustrator-design.component';
+import { VisualDesignPostComponent } from './visual-design-post/visual-design-post.component';
+import { PhotoshopDesignComponent } from './photoshop-design/photoshop-design.component';
+import { SketchDesignComponent } from './sketch-design/sketch-design.component';
+import { PersonalSpaceComponent } from './personal-space/personal-space.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +24,12 @@ import { SnippetPostComponent } from './snippet-post/snippet-post.component';
         HomeComponent,
         TablesComponent,
         FormsComponent,
-        SnippetPostComponent
+        SnippetPostComponent,
+        IllustratorDesignComponent,
+        VisualDesignPostComponent,
+        PhotoshopDesignComponent,
+        SketchDesignComponent,
+        PersonalSpaceComponent
     ],
     imports: [
         BrowserAnimationsModule,
