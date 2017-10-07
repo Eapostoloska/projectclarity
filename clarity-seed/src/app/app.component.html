@@ -3,12 +3,13 @@
     <div class="branding">
       <a href="#" class="nav-link">
         <span class="clr-icon clr-clarity-logo"></span>
-        <span class="title">Clarity</span>
+        <span class="title">UXO Custom components</span>
       </a>
     </div>
       <div class="header-nav" [clr-nav-level]="1">
           <a class="nav-link" href="#" [routerLink]="['/home']" routerLinkActive="active"><span class="nav-text">Home</span></a>
           <a class="nav-link" href="#" [routerLink]="['/about']" routerLinkActive="active"><span class="nav-text">About</span></a>
+          <a class="nav-link" href="#" [routerLink]="['/forms']" routerLinkActive="active"><span class="nav-text">Forms</span></a>
       </div>
     <div class="header-actions">
     </div>
@@ -18,30 +19,35 @@
         <router-outlet></router-outlet>
       </div>
       <clr-vertical-nav [clrVerticalNavCollapsible]="collapsible" [(clrVerticalNavCollapsed)]="collapsed">
-          <a clrVerticalNavLink routerLink="./normal" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="user"></clr-icon>
-              Inputs
-          </a>
-          <a clrVerticalNavLink routerLink="./electric" [routerLink]="['/tables']" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="bolt"></clr-icon>
-              Tables
-          </a>
-          <a clrVerticalNavLink routerLink="./poison" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="sad-face"></clr-icon>
-              Poison
-          </a>
-          <a clrVerticalNavLink routerLink="./grass" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="bug"></clr-icon>
-              Grass
-          </a>
-          <a clrVerticalNavLink routerLink="./fighting" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="shield"></clr-icon>
-              Fighting
-          </a>
-          <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">
-              <clr-icon clrVerticalNavIcon shape="certificate"></clr-icon>
-              Credit
-          </a>
+          <button class="nav-trigger" type="button">
+            <clr-icon class="nav-trigger-icon" shape="angle-double" dir="left"></clr-icon>
+          </button>
+          <div class="nav-content">
+              <a clrVerticalNavLink href="#" [routerLink]="['/forms']" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="code"></clr-icon>
+                  Form
+              </a>
+              <a clrVerticalNavLink href="#" [routerLink]="['/tables']" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="code"></clr-icon>
+                  Tables
+              </a>
+              <a clrVerticalNavLink routerLink="./credit" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="code"></clr-icon>
+                  CSS Grids
+              </a>
+              <a clrVerticalNavLink routerLink="./electric" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="bolt"></clr-icon>
+                  Designs Illustrator
+              </a>
+              <a clrVerticalNavLink routerLink="./poison" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="sad-face"></clr-icon>
+                  Designs Sketch
+              </a>
+              <a clrVerticalNavLink routerLink="./grass" routerLinkActive="active">
+                  <clr-icon clrVerticalNavIcon shape="bug"></clr-icon>
+                  Photoshop Designs
+              </a>
+          </div>
       </clr-vertical-nav>
   </div>
 </clr-main-container>

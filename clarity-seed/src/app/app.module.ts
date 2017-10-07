@@ -9,13 +9,15 @@ import { ROUTING } from "./app.routing";
 import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { TablesComponent } from './tables/tables.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         AboutComponent,
         HomeComponent,
-        TablesComponent
+        TablesComponent,
+        FormsComponent
     ],
     imports: [
         BrowserAnimationsModule,
