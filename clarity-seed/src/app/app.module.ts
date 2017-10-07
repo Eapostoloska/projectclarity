@@ -9,13 +9,15 @@ import { ROUTING } from "./app.routing";
 import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { TestComponentComponent } from './test-component/test-component.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         AboutComponent,
         HomeComponent,
-        TestComponentComponent
+        TestComponentComponent,
+        FormsComponent
     ],
     imports: [
         BrowserAnimationsModule,
