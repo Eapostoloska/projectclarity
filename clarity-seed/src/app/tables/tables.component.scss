@@ -1,0 +1,31 @@
+.table {
+    th {
+        background-color: #004a70;
+        border-color: #004a70;
+        color: #fff;
+    }
+}
+
+.table-left{
+    td, th{
+        text-align: left;
+    }
+}
+
+.table-right{
+    td, th{
+        text-align: right;
+    }
+}
+
+.table-center{
+    td, th{
+        text-align: center;
+    }
+}
+
+.table-border{
+    td, th{
+        border: 1px solid #eee;
+    }
+}
