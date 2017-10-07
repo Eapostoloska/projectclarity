@@ -10,6 +10,7 @@ import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
+import { SnippetPostComponent } from './snippet-post/snippet-post.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import { FormsComponent } from './forms/forms.component';
         AboutComponent,
         HomeComponent,
         TablesComponent,
-        FormsComponent
+        FormsComponent,
+        SnippetPostComponent
     ],
     imports: [
         BrowserAnimationsModule,

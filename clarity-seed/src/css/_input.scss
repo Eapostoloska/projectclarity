@@ -1,37 +1,6 @@
-// Rounded Borders Input
-
-input[type=text]:not([readonly]).form_style_rounded:focus {
-    border: 1px solid #0094d2;
-    background-size: 100%;
-}
-
-input[type=text]:not([readonly]).form_style_rounded {
-    background: none;
-    background-size: 0;
-    transition: background-size 0.2s ease;
-}
-
-input[type=text].form_style_rounded {
-    border: 1px solid gray;
-    border-radius: 30px;
-    padding: 20px 10px;
-}
-
-
-// Simple Border Input
-
-input[type=text]:not([readonly]).form_style_simple:focus {
-    border: 1px solid #0094d2;
-    background-size: 100%;
-}
-
-input[type=text]:not([readonly]).form_style_simple {
-    background: none;
-    background-size: 0;
-    transition: background-size 0.2s ease;
-}
-
-input[type=text].form_style_simple {
-    border: 1px solid gray;
-    padding: 20px 10px;
+.form-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 28px;
 }
