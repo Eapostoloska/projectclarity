@@ -15,6 +15,7 @@ import { IllustratorDesignComponent } from './illustrator-design/illustrator-des
 import { PhotoshopDesignComponent } from './photoshop-design/photoshop-design.component';
 import { SketchDesignComponent } from './sketch-design/sketch-design.component';
 import { PersonalSpaceComponent } from './personal-space/personal-space.component';
+import { ModalsComponent } from './modals/modals.component';
 
 
 
@@ -28,7 +29,8 @@ export const ROUTES: Routes = [
     {path: 'illustrator-design', component: IllustratorDesignComponent},
     {path: 'photoshop-design', component: PhotoshopDesignComponent},
     {path: 'sketch-design', component: SketchDesignComponent},
-    {path: 'personal-space', component: PersonalSpaceComponent }
+    {path: 'personal-space', component: PersonalSpaceComponent },
+    {path: 'modals', component: ModalsComponent}
 ];
 
 export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);

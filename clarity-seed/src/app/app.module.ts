@@ -17,6 +17,7 @@ import { PhotoshopDesignComponent } from './photoshop-design/photoshop-design.co
 import { SketchDesignComponent } from './sketch-design/sketch-design.component';
 import { PersonalSpaceComponent } from './personal-space/personal-space.component';
 import { GridsComponent } from './grids/grids.component';
+import { ModalsComponent } from './modals/modals.component';
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import { GridsComponent } from './grids/grids.component';
         PhotoshopDesignComponent,
         SketchDesignComponent,
         PersonalSpaceComponent,
-        GridsComponent
+        GridsComponent,
+        ModalsComponent
     ],
     imports: [
         BrowserAnimationsModule,
