@@ -10,7 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { TablesComponent } from './tables/tables.component';
 import { FormsComponent } from './forms/forms.component';
+import { GridsComponent } from './grids/grids.component';
 import { IllustratorDesignComponent } from './illustrator-design/illustrator-design.component';
+import { PhotoshopDesignComponent } from './photoshop-design/photoshop-design.component';
+import { SketchDesignComponent } from './sketch-design/sketch-design.component';
 import { PersonalSpaceComponent } from './personal-space/personal-space.component';
 
 
@@ -21,7 +24,10 @@ export const ROUTES: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'tables', component: TablesComponent},
     {path: 'forms', component: FormsComponent},
+    {path: 'grids', component: GridsComponent},
     {path: 'illustrator-design', component: IllustratorDesignComponent},
+    {path: 'photoshop-design', component: PhotoshopDesignComponent},
+    {path: 'sketch-design', component: SketchDesignComponent},
     {path: 'personal-space', component: PersonalSpaceComponent }
 ];
 

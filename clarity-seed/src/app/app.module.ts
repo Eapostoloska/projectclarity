@@ -16,6 +16,7 @@ import { VisualDesignPostComponent } from './visual-design-post/visual-design-po
 import { PhotoshopDesignComponent } from './photoshop-design/photoshop-design.component';
 import { SketchDesignComponent } from './sketch-design/sketch-design.component';
 import { PersonalSpaceComponent } from './personal-space/personal-space.component';
+import { GridsComponent } from './grids/grids.component';
 
 @NgModule({
     declarations: [
@@ -29,7 +30,8 @@ import { PersonalSpaceComponent } from './personal-space/personal-space.componen
         VisualDesignPostComponent,
         PhotoshopDesignComponent,
         SketchDesignComponent,
-        PersonalSpaceComponent
+        PersonalSpaceComponent,
+        GridsComponent
     ],
     imports: [
         BrowserAnimationsModule,
