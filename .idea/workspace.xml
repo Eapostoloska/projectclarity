@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc806045-2d40-454c-8bb6-27293079c6dd" name="Default" comment="" />
+    <list default="true" id="fc806045-2d40-454c-8bb6-27293079c6dd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss" afterPath="$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,34 +13,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modals.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modals.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="285">
+              <caret line="95" column="12" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
               <folding>
-                <element signature="n#clr-modal#0;n#clr-tab-content#0;n#clr-tab#0;n#clr-tabs#0;n#!!top" expanded="false" />
-                <element signature="n#clr-modal#1;n#clr-tab-content#0;n#clr-tab#0;n#clr-tabs#0;n#!!top" expanded="false" />
+                <element signature="n#clr-modal#0;n#!!top" expanded="false" />
+                <element signature="n#clr-modal#1;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photoshop-design.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/photoshop-design/photoshop-design.component.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clarity-seed/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visual-design-post.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/visual-design-post/visual-design-post.component.html">
+      <file leaf-file-name="_navigation.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clarity-seed/src/css/_navigation.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -54,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modals.component.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="modals.component.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+            <state relative-caret-position="103">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -74,7 +96,11 @@
       <find>.login-wrapper</find>
       <find>.modal-dialog {</find>
       <find>Clarity seed app</find>
+      <find>border-color: #660092;</find>
+      <find>Material Design Form</find>
       <find>Form Modals</find>
+      <find>.header</find>
+      <find>header-nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clarity-seed/src/app/tables/tables.component.ts" />
-        <option value="$PROJECT_DIR$/clarity-seed/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/tables/tables.component.scss" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/tables/tables.component.html" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/app.component.ts" />
@@ -97,12 +122,17 @@
         <option value="$PROJECT_DIR$/clarity-seed/node_modules/clarity-ui/src/modal/_modal.clarity.scss" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/clarity-seed/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/clarity-seed/src/index.html" />
-        <option value="$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/about/about.component.html" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/css/_color-elements.scss" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/app/personal-space/personal-space.component.html" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/app/personal-space/personal-space.component.scss" />
         <option value="$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.html" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/index.html" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/css/_navigation.scss" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss" />
       </list>
     </option>
   </component>
@@ -179,7 +209,7 @@
               <item name="clarity-seed" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="visual-design-post" type="462c0819:PsiDirectoryNode" />
+              <item name="personal-space" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,12 +341,12 @@
       <workItem from="1507320324312" duration="2797000" />
       <workItem from="1507325791976" duration="522000" />
       <workItem from="1507329794165" duration="2182000" />
-      <workItem from="1507337365434" duration="30179000" />
+      <workItem from="1507337365434" duration="33671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35680000" />
+    <option name="totallyTimeSpent" value="39172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
@@ -600,22 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clarity-seed/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -634,26 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -674,6 +672,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/visual-design-post/visual-design-post.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507460023000" expanded="true" signature="647:884" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="690:865" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="966:1733" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1012:1722" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1047:1133" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1170:1434" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1269:1414" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1472:1709" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1515:1690" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1791:2629" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1837:2618" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1872:1958" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="1995:2330" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="2094:2310" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="2368:2605" ph="..." />
+            <marker date="1507460023000" expanded="true" signature="2411:2586" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/personal-space/personal-space.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/photoshop-design/photoshop-design.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,22 +713,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/visual-design-post/visual-design-post.component.html">
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/personal-space/personal-space.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/css/_color-elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="95" column="12" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
           <folding>
-            <element signature="n#clr-modal#0;n#clr-tab-content#0;n#clr-tab#0;n#clr-tabs#0;n#!!top" expanded="false" />
-            <element signature="n#clr-modal#1;n#clr-tab-content#0;n#clr-tab#0;n#clr-tabs#0;n#!!top" expanded="false" />
+            <element signature="n#clr-modal#0;n#!!top" expanded="false" />
+            <element signature="n#clr-modal#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/css/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clarity-seed/src/app/modals/modals.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

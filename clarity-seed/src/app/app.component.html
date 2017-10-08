@@ -11,8 +11,30 @@
           <a class="nav-link" href="#" [routerLink]="['/about']" routerLinkActive="active"><span class="nav-text">About</span></a>
           <a class="nav-link" href="#" [routerLink]="['/personal-space']" routerLinkActive="active"><span class="nav-text">My Profile</span></a>
       </div>
-    <div class="header-actions">
-    </div>
+      <div class="header-actions">
+          <clr-dropdown>
+              <button class="nav-icon" clrDropdownTrigger>
+                  <clr-icon shape="cog"></clr-icon>
+                  <clr-icon shape="caret down"></clr-icon>
+              </button>
+              <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+                  <a href="#" clrDropdownItem>About</a>
+                  <a href="#" clrDropdownItem>Preferences</a>
+                  <a href="#" clrDropdownItem>Log out</a>
+              </clr-dropdown-menu>
+          </clr-dropdown>
+          <clr-dropdown>
+              <button class="nav-icon" clrDropdownTrigger>
+                  <clr-icon shape="user"></clr-icon>
+                  <clr-icon shape="caret down"></clr-icon>
+              </button>
+              <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+                  <a href="#" clrDropdownItem>About</a>
+                  <a href="#" clrDropdownItem>Preferences</a>
+                  <a href="#" clrDropdownItem>Log out</a>
+              </clr-dropdown-menu>
+          </clr-dropdown>
+      </div>
   </clr-header>
   <div class="content-container">
       <div class="content-area">

@@ -3,6 +3,10 @@
 }
 
 .login-modal{
+    .modal-title{
+        text-align: center;
+        font-weight: 500;
+    }
     .form-group{
         label{
             display: block;

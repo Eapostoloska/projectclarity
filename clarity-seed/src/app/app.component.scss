@@ -1,5 +1,11 @@
 $clr-primary: #004a70;
 
+*{
+    outline-color: transparent;
+    outline-style: none;
+    outline-width: 0px;
+}
+
 .row{
     margin-left: 12px !important;
     margin-right: 12px !important;
