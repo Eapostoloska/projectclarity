@@ -1,66 +1,116 @@
-<button class="btn btn-primary" (click)="openLogin = true">Log In</button>
-<clr-modal class="login-modal" [(clrModalOpen)]="openLogin" [clrModalSize]="'sm
-'">
-    <h3 class="modal-title">Log In</h3>
-    <div class="modal-body">
+<clr-tabs>
+    <clr-tab>
+        <button clrTabLink id="link1">Visual Example</button>
+        <clr-tab-content id="content1" *clrIfActive>
+            <!--First Tab-->
+            <h3>Form Modals</h3>
 
-        <div class="login-with">
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <button type="button" class="btn btn-icon btn-fb">
-                        Sign In with Facebook
-                        <img src="https://www.businessessentials.com.au/images/facebook-icon.png    " alt="facebook">
-                    </button>
+            <button class="btn btn-primary" (click)="openLogin = true">Log In</button>
+            <clr-modal class="login-modal" [(clrModalOpen)]="openLogin">
+                <h3 class="modal-title">Log In</h3>
+                <div class="modal-body">
+                    <div class="login-with">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <button type="button" class="btn btn-icon btn-fb">
+                                    Sign In with Facebook
+                                    <img src="https://www.businessessentials.com.au/images/facebook-icon.png    " alt="facebook">
+                                </button>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <button type="button" class="btn btn-icon btn-go">
+                                    Sign In with Google+
+                                    <img src="https://www.northwoodsbluesfestival.com/images/google-Icon-mobile.png" alt="facebook">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <button type="button" class="btn btn-icon btn-tw">
+                                    Sign In with Twitter
+                                    <img src="http://komodocash.com/wp-content/uploads/2016/06/icon-twitter-white-1.png" alt="facebook">
+                                </button>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <button type="button" class="btn btn-icon btn-li">
+                                    Sign In with Linkedin
+                                    <img src="http://www.joelilett.com/img/linkedin-icon.png" alt="facebook">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="separator"></div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" placeholder="somebody@somewhere.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <button type="button" class="btn btn-icon btn-go">
-                        Sign In with Google+
-                        <img src="https://www.northwoodsbluesfestival.com/images/google-Icon-mobile.png" alt="facebook">
-                    </button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" (click)="open = false">Log In</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <button type="button" class="btn btn-icon btn-tw">
-                        Sign In with Twitter
-                        <img src="http://komodocash.com/wp-content/uploads/2016/06/icon-twitter-white-1.png" alt="facebook">
-                    </button>
+            </clr-modal>
+
+
+            <button class="btn btn-primary" (click)="openNewPost = true">Register</button>
+            <clr-modal class="register-modal" [(clrModalOpen)]="openNewPost">
+                <h3 class="modal-title">Register account</h3>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Password</label>
+                        <input type="text" id="password1">
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Re-enter Password</label>
+                        <input type="text" id="password2">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" (click)="open = false">Register</button>
+                    </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <button type="button" class="btn btn-icon btn-li">
-                        Sign In with Linkedin
-                        <img src="http://www.joelilett.com/img/linkedin-icon.png" alt="facebook">
-                    </button>
+            </clr-modal>
+
+            <h3>Confirmation Modals</h3>
+            <button class="btn btn-danger" (click)="confirmModal = true">Delete</button>
+            <clr-modal class="confirm-modal modal-sm" [(clrModalOpen)]="confirmModal" [clrModalSize]="'sm'">
+                <h3 class="modal-title">Are you sure?</h3>
+                <div class="modal-body">
+                    <div class="modal-footer">
+                        <button class="btn btn-danger">No</button>
+                        <button class="btn btn-primary">Yes</button>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="separator"></div>
-
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="text" id="email" placeholder="somebody@somewhere.com">
-        </div>
-
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-        </div>
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-primary" (click)="open = false">Log In</button>
-    </div>
-</clr-modal>
+            </clr-modal>
+        </clr-tab-content>
+    </clr-tab>
+    <clr-tab>
+        <button clrTabLink>Tab2</button>
+        <clr-tab-content *clrIfActive>
+           <!--Second Tab-->
+            asdasd
+        </clr-tab-content>
+    </clr-tab>
+</clr-tabs>
 
 
-<button class="btn btn-primary" (click)="openNewPost = true">Add Post</button>
-<clr-modal [(clrModalOpen)]="openNewPost">
-    <h3 class="modal-title">Add post</h3>
-    <div class="modal-body">
-        <p>But not much to say...</p>
-    </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-outline" (click)="open = false">Cancel</button>
-        <button type="button" class="btn btn-primary" (click)="open = false">Ok</button>
-    </div>
-</clr-modal>
+
+
+
